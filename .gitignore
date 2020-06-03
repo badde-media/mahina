@@ -24,3 +24,7 @@ node_modules/
 
 # ignore Dreamweaver _notes
 _notes/
+
+# ignore WP config
+wp-config_web.php
+wp-config.php
