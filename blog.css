@@ -33,16 +33,25 @@ h6, .h6 {
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans:ital,wght@0,875;0,900;1,900&display=swap');
 
+
+h1:hover {
+}
 /*
  * Masthead for nav
  */
 
 .blog-masthead {
 	position: relative;
-	background-color: #428bca;
+	background-color: #33333c;
 	-webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 	box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+		-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+	width:120%;
+	left:-10vw;
+	top:-7.45vw;
 }
 
 /* Nav links */
@@ -50,12 +59,21 @@ h6, .h6 {
   position: relative;
   display: inline-block;
   padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
+	font-family:"Work Sans";
+  font-variation-settings: 'wght' 600;
+  background: linear-gradient(46deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background-size: 800% 800%; 
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  transition: 0.5s;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-  color: #fff;
+  font-variation-settings: 'wght' 900;
+  background-position:90% 15%;
   text-decoration: none;
 }
 
@@ -89,7 +107,6 @@ h6, .h6 {
 }
 
 .blog-nav {
-	display: none;
 }
 /*
  * Blog name and description

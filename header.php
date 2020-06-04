@@ -25,16 +25,17 @@
 			
 		<img src="<?php echo get_theme_root_uri()?>/mahina/assets/images/P_20200602_140129.jpg" width="100%" alt=""/> </div>
 		<div id="headerBG">&nbsp;</div>
+		<div class="blog-masthead">
+			<div class="container">
+				<nav class="blog-nav">
+					<a class="blog-nav-item active" href="#">Home</a>
+					<?php wp_list_pages( '&title_li=' ); ?>
+				</nav>
+			</div>
+		</div>
 	<?php } ?>
 	<div class="wrapper">
-<div class="blog-masthead">
-		<div class="container">
-			<nav class="blog-nav">
-				<a class="blog-nav-item active" href="#">Home</a>
-				<?php wp_list_pages( '&title_li=' ); ?>
-			</nav>
-		</div>
-	</div>
+
 	<div class="container">
 	<div class="blog-header">
 		<h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
