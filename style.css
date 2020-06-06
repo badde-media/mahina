@@ -206,7 +206,7 @@ ul.primary-menu {
 }
 button.toggle {
 	position: fixed;
-	top: 10vw;
+	top: 8vw;
 	bottom: auto;
 	left: 2vw;
 	z-index: 1000;
