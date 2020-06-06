@@ -445,9 +445,9 @@ article header {
 	background-color: transparent !important;
 }
 
-@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+/*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
-    /*
+    
       Define here the CSS styles applied only to Safari browsers
       (any version and any device)
      */
@@ -478,6 +478,6 @@ h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
 
 a:focus, a:hover, a:active {
 	color:coral;
-}*/
+}
 
-	}}
+	}}*/
