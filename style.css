@@ -63,6 +63,7 @@ h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
 .entry-title:hover, .entry-title:focus {
 /*	background-position:100% 0%;*/
 	text-decoration: none;
+	color: coral;
 }
 
 a:focus, a:hover, a:active {
