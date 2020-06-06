@@ -472,6 +472,8 @@ h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
 h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
 .entry-title:hover, .entry-title:focus, .menu-item:hover, .menu-item:focus {
 	text-decoration: none;
+  background: -webkit-black;
+  background: black;
 }
 
 a:focus, a:hover, a:active {
