@@ -322,15 +322,14 @@ article header {
 /*
  * Main column and sidebar layout
  */
-#wrapper {
+.wrapper {
 		position:relative;
     top:0px;
     left:0px;
 }
 
 .pulldown {
-	position: relative;
-	top:15vw;
+	margin-top: 15vw;
 }
 
 .blog-main {
