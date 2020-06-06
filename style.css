@@ -445,7 +445,7 @@ article header {
 	background-color: transparent !important;
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
     /*
       Define here the CSS styles applied only to Safari browsers
@@ -453,23 +453,23 @@ article header {
      */
 	
 	
-h1 a, .h1 a,
+/*h1 a, .h1 a,
 h2 a, .h2 a,
 h3 a, .h3 a,
 h4 a, .h4 a,
 h5 a, .h5 a,
-h6 a, .h6 a,
+h6 a, .h6 a,*/
 .entry-title, .menu-item {
   background: -webkit-black;
   background: black;
 }
 
-h1 a:hover, .h1 a:hover, h1 a:focus, .h1 a:focus,
+/*h1 a:hover, .h1 a:hover, h1 a:focus, .h1 a:focus,
 h2 a:hover, .h2 a:hover, h2 a:focus, .h2 a:focus,
 h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
 h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
-h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
+h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,*/
 .entry-title:hover, .entry-title:focus, .menu-item:hover, .menu-item:focus {
 	text-decoration: none;
   background: -webkit-black;
