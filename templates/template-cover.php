@@ -11,6 +11,11 @@
 get_header();
 ?>
 
+<div class="container">
+	<div class="row">
+		<div class="col-sm-9">
+			
+
 <main id="site-content" role="main">
 
 	<?php
@@ -27,7 +32,10 @@ get_header();
 	?>
 
 </main><!-- #site-content -->
-
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
-
+<div class="col-sm-3"> 
+			<!-- SIDEBAR -->
+			<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+		</div>
+	</div>
+</div>
 <?php get_footer(); ?>
