@@ -34,8 +34,8 @@ h2 a, .h2 a,
 h3 a, .h3 a,
 h4 a, .h4 a,
 h5 a, .h5 a,
-h6 a, .h6 a,
-.entry-title {
+h6 a, .h6 a/*,
+.entry-title*/ {
   margin-top: 0;
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
 	font-family:"Work Sans";
@@ -59,8 +59,8 @@ h2 a:hover, .h2 a:hover, h2 a:focus, .h2 a:focus,
 h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
 h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
-h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
-.entry-title:hover, .entry-title:focus {
+h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus/*,
+.entry-title:hover, .entry-title:focus*/ {
 	background-position:100% 0%;
 	text-decoration: none;
 }
@@ -133,7 +133,7 @@ h2.sidebar-module, h2.widget-title {
 	transform: rotate(-11deg);
 }
 
-/* Nav links */
+/* Nav links 
 .menu-item {
   position: relative;
   display: inline-block;
@@ -154,7 +154,7 @@ h2.sidebar-module, h2.widget-title {
 
 	text-transform: uppercase;
 }
-
+*/
 .menu-item:hover,
 .menu-item:focus {
   background-position:100% 0%;
@@ -458,18 +458,18 @@ h2 a, .h2 a,
 h3 a, .h3 a,
 h4 a, .h4 a,
 h5 a, .h5 a,
-h6 a, .h6 a,*/
+h6 a, .h6 a,
 .entry-title, .menu-item {
   background: -webkit-black;
   background: black;
 }
-
+*/
 /*h1 a:hover, .h1 a:hover, h1 a:focus, .h1 a:focus,
 h2 a:hover, .h2 a:hover, h2 a:focus, .h2 a:focus,
 h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
 h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
-h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,*/
+h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
 .entry-title:hover, .entry-title:focus, .menu-item:hover, .menu-item:focus {
 	text-decoration: none;
   background: -webkit-black;
@@ -478,6 +478,6 @@ h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,*/
 
 a:focus, a:hover, a:active {
 	color:coral;
-}
+}*/
 
 	}}
