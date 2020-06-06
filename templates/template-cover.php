@@ -12,30 +12,27 @@ get_header();
 ?>
 
 <div class="container">
-	<div class="row">
-		<div class="col-sm-9">
-			
+<div class="row">
+	<div class="col-sm-9">
+		<main id="site-content" role="main">
+			<?php
 
-<main id="site-content" role="main">
+			if ( have_posts() ) {
 
-	<?php
+				while ( have_posts() ) {
+					the_post();
 
-	if ( have_posts() ) {
+					get_template_part( 'template-parts/content-cover' );
+				}
+			}
 
-		while ( have_posts() ) {
-			the_post();
-
-			get_template_part( 'template-parts/content-cover' );
-		}
-	}
-
-	?>
-
-</main><!-- #site-content -->
-<div class="col-sm-3"> 
-			<!-- SIDEBAR -->
-			<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
-		</div>
+			?>
+		</main>
+		<!-- #site-content --> 
+	</div>
+	<div class="col-sm-3"> 
+		<!-- SIDEBAR -->
+		<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 	</div>
 </div>
 <?php get_footer(); ?>
