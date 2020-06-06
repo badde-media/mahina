@@ -35,14 +35,14 @@ h3 a, .h3 a,
 h4 a, .h4 a,
 h5 a, .h5 a,
 h6 a, .h6 a,
-.entry-title a {
+.entry-title {
   margin-top: 0;
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
 	font-family:"Work Sans";
 	text-transform: uppercase;
   font-variation-settings: 'wght' 900;
   background: -moz-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background: -webkit-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);;
+  background: -webkit-black;
   background: -ms-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
@@ -60,7 +60,7 @@ h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
 h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
 h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
-.entry-title a:hover, .entry-title a:focus {
+.entry-title:hover, .entry-title:focus {
 	background-position:100% 0%;
 	text-decoration: none;
 }
@@ -141,7 +141,7 @@ h2.sidebar-module, h2.widget-title {
 	font-family:"Work Sans";
   font-variation-settings: 'wght' 900;
   background: -moz-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background: -webkit-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);;
+  background: -webkit-black;
   background: -ms-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
@@ -445,9 +445,9 @@ article header {
 	background-color: transparent !important;
 }
 
-/*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
-    
+    /*
       Define here the CSS styles applied only to Safari browsers
       (any version and any device)
      */
@@ -469,7 +469,7 @@ h2 a:hover, .h2 a:hover, h2 a:focus, .h2 a:focus,
 h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
 h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
-h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
+h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,*/
 .entry-title:hover, .entry-title:focus, .menu-item:hover, .menu-item:focus {
 	text-decoration: none;
   background: -webkit-black;
@@ -480,4 +480,4 @@ a:focus, a:hover, a:active {
 	color:coral;
 }
 
-	}}*/
+	}}
