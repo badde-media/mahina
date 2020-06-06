@@ -436,7 +436,6 @@ article header {
 }
 
 /* KALENDER */
-}
 .tribe-theme-twentytwenty .tribe-common {
-	background-color: transparent;
+	background-color: transparent !important;
 }
