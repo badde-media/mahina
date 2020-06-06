@@ -24,10 +24,6 @@ body {
 	color: #858685;
 }
 
-.pulldown {
-	position: relative;
-	top:15vw;
-}
 
 .post-meta {
 	color:#555	!important;
@@ -330,6 +326,11 @@ article header {
 		position:relative;
     top:0px;
     left:0px;
+}
+
+.pulldown {
+	position: relative;
+	top:15vw;
 }
 
 .blog-main {
