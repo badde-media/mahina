@@ -158,7 +158,7 @@
 		 ?>
 			</div>
 		</div>
-	<div class="wrapper">
+	<div class="wrapper<?php if(is_front_page() == FALSE) { ?> pulldown<?php } ?>">
 	<?php /*
 	<div class="container">
 <div class="blog-header">
