@@ -1,7 +1,24 @@
 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
-    <h4>About</h4>
-		<p><?php the_author_meta( 'description' ); ?> </p>
+		<?php
+
+					// Check whether the header search is activated in the customizer.
+					$enable_header_search = get_theme_mod( 'enable_header_search', true );
+
+					if ( true === $enable_header_search ) {
+
+						?>
+		
+						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+							<span class="toggle-inner">
+								<span class="toggle-icon">
+									<?php twentytwenty_the_theme_svg( 'search' ); ?>
+								</span>
+								<span class="toggle-text"><?php _e( 'Search', 'twentytwenty' ); ?></span>
+							</span>
+						</button><!-- .search-toggle -->
+
+					<?php } ?>
   </div>
   <div class="sidebar-module">
     <h4>Archives</h4>

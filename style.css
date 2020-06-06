@@ -3,6 +3,420 @@
 Theme Name: Mahina
 Author: Daniel Badde
 Description: Bootstrap Blog based template inspired by Stephanie Eckles' https://moderncss.dev/ design
+Template: twentytwenty
 Version: 0.0.1
 Tags: bootstrap
 */
+
+/*
+ * Globals
+ */
+
+body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  color: #858685;
+	background-color: #27272c;
+	padding-bottom:-60px;
+}
+
+.entry-content, .has-primary-color {
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	color: #858685;
+}
+.post-meta {
+	color:#555	!important;
+}
+
+h1 a, .h1 a,
+h2 a, .h2 a,
+h3 a, .h3 a,
+h4 a, .h4 a,
+h5 a, .h5 a,
+h6 a, .h6 a,
+.entry-title {
+  margin-top: 0;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+	font-family:"Work Sans";
+	text-transform: uppercase;
+  font-variation-settings: 'wght' 900;
+  background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background-size: 300% 300%; 
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  transition: 0.5s;
+}
+
+h1 a:hover, .h1 a:hover, h1 a:focus, .h1 a:focus,
+h2 a:hover, .h2 a:hover, h2 a:focus, .h2 a:focus,
+h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
+h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
+h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
+h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
+.entry-title:hover, .entry-title:focus{
+	background-position:100% 0%;
+	text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+	color:coral;
+}
+
+input[type="submit"] {
+  background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background-size: 300% 300%; 
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+	background-position:100% 0%;
+}
+
+h2.sidebar-module, h2.widget-title {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+	font-family:"Work Sans";
+	text-transform: uppercase;
+  font-variation-settings: 'wght' 900;
+	font-size: 1.5em;
+	color:#858685;
+  transition:none;
+}
+.sidebar-module h4 {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+	font-family:"Work Sans";
+	text-transform: uppercase;
+  font-variation-settings: 'wght' 900;
+	color:#858685;
+}
+/*
+ * Override Bootstrap's default container.
+ 
+
+@media (min-width: 1200px) {
+  .container {
+		position: relative;
+		top: 0px;
+    width: 970px;
+  }
+}
+*/
+
+/*
+ * Masthead for nav
+ */
+
+/* .blog-masthead {*/
+.header-navigation-wrapper {
+	position: relative;
+	background-color: #33333c;
+	-webkit-box-shadow: inset 2px -2px 5px rgba(0,0,0,.1);
+	box-shadow: inset 0px -2px 5px rgba(0,0,0,.1);
+	-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+	width: 120%;
+	left: -10vw;
+	top: -7.45vw;
+	padding-left: 15vw;
+}
+
+.pullup {
+	top: 9vw;
+	z-index: 1000;
+	position: absolute;
+	transform: rotate(-11deg);
+}
+
+/* Nav links */
+.menu-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+	font-family:"Work Sans";
+  font-variation-settings: 'wght' 900;
+  background: linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background-size: 300% 300%; 
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  transition: 0.5s;
+
+	text-transform: uppercase;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  background-position:100% 0%;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.menu-item .active {
+  color: #fff;
+}
+.menu-item .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+ul.primary-menu {
+	justify-content: flex-start;
+}
+
+.menu-item li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+}
+.menu-item li a {
+  color: #fff;
+}
+
+.menu-item li a:hover {
+  text-decoration: none;
+}
+
+.nav-toggle .mobile-nav-toggle {
+	position: fixed;
+	top:inherit;
+	bottom:none !important;
+	width: 6.6rem;
+	z-index: 1000;
+}
+button.toggle {
+	position: fixed;
+	top: 10vw;
+	bottom: auto;
+	left: 2vw;
+	z-index: 1000;
+}
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+.footer-inner {
+}
+
+.singular .entry-header, .entry-header, .archive-header {
+	background: transparent !important;
+}
+
+/* Front Page Header */
+#frontpageHero {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	color: #f9f9f9;
+	display: block;
+	clear: both;
+	clip-path: polygon(0 25%, 100% 0%, 100% 78%, 0% 100%);
+}
+#headerBG {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height:27.5vw;
+	background: rgb(255,153,0);
+	background: -moz-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	background: -webkit-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	background: linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9900",endColorstr="#6300ff",GradientType=1); 
+	z-index: -1;
+}
+
+.clip {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 00%, 0% 70%);
+}
+
+#logo {
+	position: relative;
+	top: 15vw;
+	left: 0px;
+	margin: auto;
+	height: 0vw;
+	min-width: 150px;
+	max-height: 20vw;
+	z-index: 100;
+	width: 30vw;
+animation:tronFilter 120s infinite; 
+    fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;
+}
+
+@keyframes tronFilter {
+    0% {-webkit-filter: drop-shadow( -.75px 0px 3px #ff9900 );
+                filter: drop-shadow( -.75px 0px 3px #ff9900 ); stroke:#ff9900;} 
+  /* 22% {-webkit-filter: drop-shadow( -.75px 0px 6px #1d85bb );
+                filter: drop-shadow( -.75px 0px 6px #1d85bb ); stroke:#1d85bb;} /* end blue   
+    
+   42% {-webkit-filter: drop-shadow( -.75px 0px 6px #884173 );
+                filter: drop-shadow( -.75px 0px 6px #884173 ); stroke:#884173;}
+   62% {-webkit-filter: drop-shadow( -.75px 0px 6px #ff0071 );
+                filter: drop-shadow( -.75px 0px 6px #ff0071 ); stroke:#ff0071;} /* end magenta   
+   82% {-webkit-filter: drop-shadow( -.75px 0px 6px #009997 );
+                filter: drop-shadow( -.75px 0px 6px #009997 ); stroke:#009997;}
+   92% {-webkit-filter: drop-shadow( -.75px 0px 6px #92ffd7 );
+                filter: drop-shadow( -.75px 0px 6px #92ffd7 ); stroke:#92ffd7;} /* end green */      
+  25% {-webkit-filter: drop-shadow( -.75px 0px 3px #ff0071 );
+                filter: drop-shadow( -.75px 0px 3px #ff0071 ); stroke:#ff0071;} 
+  50% {-webkit-filter: drop-shadow( -.75px 0px 3px #00ffff );
+                filter: drop-shadow( -.75px 0px 3px #00ffff ); stroke:#00ffff;} 
+  75% {-webkit-filter: drop-shadow( -.75px 0px 3px #00ff33 );
+                filter: drop-shadow( -.75px 0px 3px #00ff33 ); stroke:#00ff33;} 
+  100% {-webkit-filter: drop-shadow( -.75px 0px 3px #ff9900 );
+                filter: drop-shadow( -.75px 0px 3px #ff9900 ); stroke:#ff9900;} 
+}
+article header {	
+/*	background: rgb(255,153,0);
+	background: -moz-linear-gradient(38deg, rgba(0,153,0,1) 0%, rgba(0,0,255,1) 100%);
+	background: -webkit-linear-gradient(38deg, rgba(0,153,0,1) 0%, rgba(0,0,255,1) 100%);
+	background: linear-gradient(38deg, rgba(0,153,0,1) 0%, rgba(0,0,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9900",endColorstr="#6300ff",GradientType=1); 
+	-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+	width: 120%;
+	margin-left:-5vw;*/
+}
+
+#header div.section-inner {
+	margin-left:none;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+.wrapper {
+		position:relative;
+    top:0px;
+    left:0px;
+}
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+/* Widget area */
+.footer-nav-widgets-wrapper,
+#site-footer {
+	border-width: 0;
+	background-color: #27272c;
+}
+.footer-widgets-outer-wrapper {
+	border-bottom: 0px;
+	border-left: 1px dashed #555555;
+	padding: 0;
+}
+.footer-widgets-wrapper {
+	margin-left:1em;
+}
+.footer-widgets {
+	margin:0;
+	width: 100%;
+}
+.tag-cloud-link {
+	font-size: 1em;
+}
+.singular .featured-media::before {
+	background-color: transparent;
+}
+/*
+ * Footer
+ */
+
+.blog-footer {
+	margin-top:50px;
+  padding: 40px 0;
+  color: #000;
+  text-align: center;
+	background: rgb(255,153,0);
+	background: -moz-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	background: -webkit-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	background: linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9900",endColorstr="#6300ff",GradientType=1); 
+  border-top: 0px;
+	clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.site-footer {
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+	height:60px;
+}
