@@ -39,6 +39,9 @@ h6 a, .h6 a,
 	font-family:"Work Sans";
 	text-transform: uppercase;
   font-variation-settings: 'wght' 900;
+  background: -moz-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background: -webkit-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background: -ms-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
   background-clip: text;
@@ -135,6 +138,9 @@ h2.sidebar-module, h2.widget-title {
   padding: 10px;
 	font-family:"Work Sans";
   font-variation-settings: 'wght' 900;
+  background: -moz-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background: -webkit-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background: -ms-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
   background-clip: text;
@@ -248,6 +254,7 @@ button.toggle {
 	background: rgb(255,153,0);
 	background: -moz-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
 	background: -webkit-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	background: -ms-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
 	background: linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9900",endColorstr="#6300ff",GradientType=1); 
 	z-index: -1;
@@ -406,6 +413,7 @@ article header {
 	background: rgb(255,153,0);
 	background: -moz-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
 	background: -webkit-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
+	background: -ms-linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
 	background: linear-gradient(38deg, rgba(255,153,0,1) 0%, rgba(99,0,255,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9900",endColorstr="#6300ff",GradientType=1); 
   border-top: 0px;
