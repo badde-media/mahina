@@ -48,8 +48,8 @@ h6 a, .h6 a,
   background-size: 300% 300%; 
   background-clip: text;
   text-fill-color: transparent;
-  -webkit-background-clip: none;
-  -webkit-text-fill-color: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
   transition: 0.5s;
 }
@@ -147,8 +147,8 @@ h2.sidebar-module, h2.widget-title {
   background-size: 300% 300%; 
   background-clip: text;
   text-fill-color: transparent;
-  -webkit-background-clip:none;
-  -webkit-text-fill-color: none;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
   
   transition: 0.5s;
 
