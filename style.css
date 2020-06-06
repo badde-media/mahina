@@ -41,7 +41,7 @@ h6 a, .h6 a,
 	font-family:"Work Sans";
 	text-transform: uppercase;
   font-variation-settings: 'wght' 900;
-  background: -moz-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+/*  background: -moz-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: -webkit-black;
   background: -ms-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
@@ -49,7 +49,7 @@ h6 a, .h6 a,
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
   
   transition: 0.5s;
 }
@@ -61,7 +61,7 @@ h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
 h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
 .entry-title:hover, .entry-title:focus {
-	background-position:100% 0%;
+/*	background-position:100% 0%;*/
 	text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ h2.sidebar-module, h2.widget-title {
   padding: 10px;
 	font-family:"Work Sans";
   font-variation-settings: 'wght' 900;
-  background: -moz-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+/*  background: -moz-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: -webkit-black;
   background: -ms-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
@@ -148,7 +148,7 @@ h2.sidebar-module, h2.widget-title {
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip:text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
   
   transition: 0.5s;
 
@@ -157,7 +157,7 @@ h2.sidebar-module, h2.widget-title {
 
 .menu-item:hover,
 .menu-item:focus {
-  background-position:100% 0%;
+ /* background-position:100% 0%;*/
   text-decoration: none;
 }
 
@@ -445,7 +445,7 @@ article header {
 	background-color: transparent !important;
 }
 
-@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+/*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
     /*
       Define here the CSS styles applied only to Safari browsers
@@ -469,7 +469,7 @@ h2 a:hover, .h2 a:hover, h2 a:focus, .h2 a:focus,
 h3 a:hover, .h3 a:hover, h3 a:focus, .h3 a:focus,
 h4 a:hover, .h4 a:hover, h4 a:focus, .h4 a:focus,
 h5 a:hover, .h5 a:hover, h5 a:focus, .h5 a:focus,
-h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,*/
+h6 a:hover, .h6 a:hover, h6 a:focus, .h6 a:focus,
 .entry-title:hover, .entry-title:focus, .menu-item:hover, .menu-item:focus {
 	text-decoration: none;
   background: -webkit-black;
@@ -481,3 +481,4 @@ a:focus, a:hover, a:active {
 }
 
 	}}
+*/
