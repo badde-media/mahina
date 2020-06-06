@@ -42,7 +42,7 @@ h6 a, .h6 a,
 	text-transform: uppercase;
   font-variation-settings: 'wght' 900;
   background: -moz-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background: -webkit-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background: -webkit-#000000;
   background: -ms-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
@@ -71,7 +71,7 @@ a:focus, a:hover, a:active {
 
 input[type="submit"] {
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background-size: 300% 300%; 
+  background-size: 400% 400%; 
   transition: 0.5s;
 }
 
