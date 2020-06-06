@@ -141,14 +141,14 @@ h2.sidebar-module, h2.widget-title {
 	font-family:"Work Sans";
   font-variation-settings: 'wght' 900;
   background: -moz-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background: -webkit-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
+  background: -webkit-none;
   background: -ms-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
   background-clip: text;
   text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:none;
+  -webkit-text-fill-color: none;
   
   transition: 0.5s;
 
