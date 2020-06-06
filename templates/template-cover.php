@@ -31,11 +31,11 @@ get_header();
 
 	?>
 
-</main><!-- #site-content -->
+</main><!-- #site-content --></div>
 <div class="col-sm-3"> 
 			<!-- SIDEBAR -->
 			<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
-		</div>
+		
 	</div>
 </div>
 <?php get_footer(); ?>
