@@ -133,7 +133,7 @@ h2.sidebar-module, h2.widget-title {
 	transform: rotate(-11deg);
 }
 
-/* Nav links */
+/* Nav links 
 .menu-item {
   position: relative;
   display: inline-block;
@@ -153,7 +153,7 @@ h2.sidebar-module, h2.widget-title {
   transition: 0.5s;
 
 	text-transform: uppercase;
-}
+}*/
 
 .menu-item:hover,
 .menu-item:focus {
@@ -334,7 +334,7 @@ article header {
 }
 
 .pulldown {
-	margin-top: 16vw;
+	margin-top: 18vw;
 }
 
 .blog-main {
