@@ -42,7 +42,7 @@ h6 a, .h6 a,
 	text-transform: uppercase;
   font-variation-settings: 'wght' 900;
   background: -moz-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background: -webkit-black;
+  background: -webkit-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);;
   background: -ms-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
@@ -141,7 +141,7 @@ h2.sidebar-module, h2.widget-title {
 	font-family:"Work Sans";
   font-variation-settings: 'wght' 900;
   background: -moz-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
-  background: -webkit-black;
+  background: -webkit-linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);;
   background: -ms-linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background: linear-gradient(80deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 300% 300%; 
