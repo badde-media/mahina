@@ -322,7 +322,7 @@ article header {
 /*
  * Main column and sidebar layout
  */
-#wrapper {
+.wrapper {
 		position:relative;
     top:0px;
     left:0px;
