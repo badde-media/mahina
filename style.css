@@ -211,6 +211,11 @@ button.toggle {
 	left: 2vw;
 	z-index: 1000;
 }
+
+.mobile-menu {
+	margin-top: 15vw;
+}
+
 /*
  * Blog name and description
  */
