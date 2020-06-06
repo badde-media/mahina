@@ -329,8 +329,7 @@ article header {
 }
 
 .pulldown {
-	position: relative;
-	top:15vw;
+	margin-top: 15vw;
 }
 
 .blog-main {
