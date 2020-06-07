@@ -447,8 +447,14 @@ article header {
 }
 
 
-.widget-search .search-field {
-    background: transparent;
+input[type="search"] {
+    outline: thin dotted;
+    outline-offset: -4px;
+    background: transparent !important;
+		transition: 0.5s;
+}
+input[type="search"]:focus {
+	background: #fff;
 }
 
 /*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
