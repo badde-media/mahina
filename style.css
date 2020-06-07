@@ -473,6 +473,10 @@ input[type="search"]:focus {
 	padding-right: 5rem !important;
 }
 
+.read-more-button-wrap {
+	margin-top: 1em;
+	text-align: center;
+}
 
 /*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {

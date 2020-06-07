@@ -18,9 +18,5 @@ add_action( 'wp_enqueue_scripts', 'child_theme_styles' );
  *
  * @return string $html
  */
-function twentytwenty_read_more_tag( $html ) {
-	return preg_replace( '/<a(.*)>(.*)<\/a>/iU', sprintf( '<div class="read-more-button-wrap"><a$1><span class="faux-button">$2</span> <span class="screen-reader-text">"%1$s"</span></a></div>', get_the_title( get_the_ID() ) ), $html );
-}
-
 
 ?>
