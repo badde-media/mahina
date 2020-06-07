@@ -465,6 +465,10 @@ input[type="search"]:focus {
 	margin: 0 0 -0.8rem -0.8rem;
 }
 
+.menu-modal.active {
+	z-index: 2000;
+}
+
 /*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
     /*
