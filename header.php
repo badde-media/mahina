@@ -27,7 +27,7 @@
 		?>
 	<?php if(is_front_page() == TRUE) { ?>
 			<div id="frontpageHero">
-				<div id="logo"><img class="img-responsive glow" src="<?php echo get_theme_root_uri()?>/mahina/assets/images/mahina_logo.svg" alt="Mahina Logo"/></div>
+				<div id="logo"><img class="img-responsive glow" src="<?php echo get_theme_root_uri()?>/mahina/assets/images/logo_MAHINA JOURNEY.svg" alt="Mahina Logo"/></div>
 
 				<img src="<?php echo get_theme_root_uri()?>/mahina/assets/images/P_20200602_140129.jpg" width="100%" alt=""/> 
 			</div> 
