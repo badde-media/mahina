@@ -29,7 +29,7 @@
 			<div id="frontpageHero">
 				<div id="logo"><img class="img-responsive glow" src="<?php echo get_theme_root_uri()?>/mahina/assets/images/mahina_journey_logo.svg" alt="Mahina Journey Logo"/></div>
 
-				<img src="<?php echo get_theme_root_uri()?>/mahina/assets/images/hero_image_01.jpg" width="100%" alt=""/> 
+				<img src="<?php echo get_theme_root_uri()?>/mahina/assets/images/hero_image_01.jpg" width="100%" alt="Mahina Journey hero image"/> 
 			</div> 
 			<div id="headerBG">&nbsp;</div>
 		<?php } else { ?>
