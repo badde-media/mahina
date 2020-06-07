@@ -448,11 +448,10 @@ article header {
 
 
 input[type="search"] {
-    outline: thin dotted;
-    outline-offset: -4px;
-    background: transparent !important;
+    background: transparent;
 		transition: 0.5s;
 }
+
 input[type="search"]:focus {
 	background: #fff;
 }
