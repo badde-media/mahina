@@ -458,6 +458,13 @@ input[type="search"]:focus {
 	background: #fff;
 }
 
+.search-form {
+	align-items: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 -0.8rem -0.8rem;
+}
+
 /*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
     /*
