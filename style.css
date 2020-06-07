@@ -446,6 +446,11 @@ article header {
 	background-color: transparent !important;
 }
 
+
+.widget-search .search-field {
+    background: transparent;
+}
+
 /*@media screen and (-webkit-min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
     /*
