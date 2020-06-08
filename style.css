@@ -276,14 +276,14 @@ button.toggle {
 
 #logo {
 	position: relative;
-	top: 11.5vw;
+	top: 8vw;
 	left: 0px;
 	margin: auto;
 	height: 0vw;
 	min-width: 250px;
 	max-height: 20vw;
 	z-index: 100;
-	width: 40vw;
+	width: 50vw;
 animation:tronFilter 120s infinite; 
     fill:#000000; stroke:#666; stroke-width:5; stroke-linecap:round; stroke-linejoin:bevel;
 }
