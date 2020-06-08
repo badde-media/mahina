@@ -19,7 +19,7 @@
 						</p><!-- .footer-copyright -->
 
 						<p class="powered-by-wordpress">
-							<a href="<?php echo esc_url( __( 'https://cdt-digital.com/emoticomms', 'twentytwenty' ) ); ?>">
+							<a href="<?php echo esc_url( __( 'https://cdt.digital/emoticomms', 'twentytwenty' ) ); ?>">
 								<?php _e( 'Powered by emoticomms', 'twentytwenty' ); ?>
 							</a>
 						</p><!-- .powered-by-wordpress -->
