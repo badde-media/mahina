@@ -280,7 +280,7 @@ button.toggle {
 	left: 0px;
 	margin: auto;
 	height: 0vw;
-	min-width: 200px;
+	min-width: 250px;
 	max-height: 20vw;
 	z-index: 100;
 	width: 40vw;
