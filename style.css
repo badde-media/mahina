@@ -72,13 +72,13 @@ a:focus, a:hover, a:active {
 	color:coral;
 }
 
-input[type="submit"] {
+input[type="submit"], .faux-button {
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 400% 400%; 
   transition: 0.5s;
 }
 
-input[type="submit"]:hover, input[type="submit"]:focus {
+input[type="submit"]:hover, input[type="submit"]:focus, .faux-button:hover, .faux-button:focus {
 	background-position:100% 0%;
 }
 
