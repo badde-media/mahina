@@ -35,20 +35,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans:ital,wght@0,875;0,900;1,900&display=swap');
 </style> 
 <?php wp_head();?>
-	<script class="yoast-schema-graph" type="application/ld+json">{
-	    "@context": "https://schema.org",
-	    "@graph": [
-	        {
-	            "@type": "ImageObject",
-	            "@id": "https://mahina.eu/#primaryimage",
-	            "inLanguage": "en-US",
-	            "url": "https://mahina.eu/wp-content/uploads/2020/06/mahina_preview_pic_1200.png",
-	            "width": 638,
-	            "height": 285,
-	            "caption": "Internet Stores"
-	        }
-	    ]
-	}</script>
+
 </head>
 
 <body <?php body_class(); ?>>
