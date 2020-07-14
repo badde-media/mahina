@@ -24,9 +24,9 @@ if ( $has_footer_menu || $has_social_menu || $has_sidebar_1 || $has_sidebar_2 ) 
 
 			<?php
 
-			$footer_top_classes = '';
+			/* $footer_top_classes = '';
 
-			/* $footer_top_classes .= $has_footer_menu ? ' has-footer-menu' : '';
+			$footer_top_classes .= $has_footer_menu ? ' has-footer-menu' : '';
 			$footer_top_classes .= $has_social_menu ? ' has-social-menu' : '';
 
 			if ( $has_footer_menu || $has_social_menu ) {
