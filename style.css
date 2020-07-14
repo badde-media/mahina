@@ -86,7 +86,7 @@ h6 {
 	font-size: 0.8rem;
 }
 
-a:focus, a:hover, a:active {
+a:focus, a:hover, a:active, primary-menu menu-item a:focus, primary-menu menu-item a:hover, primary-menu menu-item a:active {
 	color:coral;
 }
 
