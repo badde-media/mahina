@@ -90,6 +90,10 @@ a:focus, a:hover, a:active, .primary-menu .menu-item a:focus, .primary-menu .men
 	color:coral;
 }
 
+.social-icons a:focus, .social-icons a:hover, .social-icons a:active{
+	background-color:coral;
+}
+
 input[type="submit"], .faux-button {
   background: linear-gradient(45deg, #858685, #858685, #858685, #ffb100, #ff00fa);
   background-size: 400% 400%; 
